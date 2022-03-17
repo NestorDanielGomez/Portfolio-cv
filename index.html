@@ -17,7 +17,51 @@
 <body>
   <!--========== HEADER ==========-->
   <header class="l-header" id="header">
-
+    <nav class="nav bd-container">
+      <a href="#" class="nav__logo">Nestor Gomez</a>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">
+              <i class="bx bx-home"></i>Home
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#profile" class="nav__link">
+              <i class="bx bx-user nav__icon "></i>Profile
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#education" class="nav__link">
+              <i class="bx bx-book nav__icon"></i>Education
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">
+              <i class="bx bx-receipt nav__icon"></i>Skills
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#xperience" class="nav__link">
+              <i class="bx bx-briefcase-alt nav__icon"></i>Experience
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#references" class="nav__link">
+              <i class="bx bx-award nav__icon"></i>Certificates
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#references" class="nav__link">
+              <i class="bx bx-link-external nav__icon"></i>References
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="bx bx-grid-alt"></i>
+      </div>
+    </nav>
   </header>
 
   <main class="l-main bd-container">
@@ -26,74 +70,420 @@
       <div class="resume__left">
         <!--========== HOME ==========-->
         <section class="home" id="home">
+          <div class="home__container section bd-grid">
+            <div class="home__data bd-grid">
+              <img src="assets/img/perfil.png" alt="" class="home__img">
+              <h1 class="homme__title">GOMEZ <b>NESTOR</B></h1>
+              <h3 class="home__profession">Web Developer</h3>
+              <div>
+                <a download="" href="assets/pdf/ResumeCv.pdf" class="home__button-movil">Download</a>
+              </div>
+            </div>
 
+            <div class="home__address bd-grid">
+
+              <span class="home__information home__icon ">
+                <a href="mailto:nestordanielgomez@gmail.com" target="_blank" rel="noopener"
+                  class="link_personaldata not_see_pdf"><i
+                    class="fa-regular fa-envelope pr-1"></i>nestordanielgomez@gmail.com</a>
+
+              </span>
+              <h3 class="link_personaldata not_see_html"><i
+                  class="fa-regular fa-envelope pr-1"></i>nestordanielgomez@gmail.com</h3>
+              <span class="home__information home__icon">
+                <a href="https://wa.me/5493482318980" target="_blank" rel="noopener"
+                  class="link_personaldata not_see_pdf"><i class="fa-brands fa-whatsapp pr-1"></i>3482-318980</a>
+
+              </span>
+              <h3 class="not_see_html link_personaldata"><i class="fa-brands fa-whatsapp pr-1"></i>3482-318980</h3>
+            </div>
+          </div>
           <!-- Theme change button -->
-
+          <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
 
           <!-- Button to generate and download the pdf. Available for desktop. -->
-
+          <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>
         </section>
 
         <!--========== SOCIAL ==========-->
-        <section class="social section">
-
-        </section>
+        <!-- <section class="social section">
+          <h2 class="section-title">SOCIAL</h2>
+          <div class="social__container bd-grid">
+            <a href="" class="social__link">
+              <i class="bx bxl-linkedin-square social__icon"></i>@NestorGomez
+            </a>
+            <a href="" class="social__link">
+              <i class="bx bxl-facebook social__icon "></i>@NestorGomez
+            </a>
+            <a href="" target="_blank" class="social__link">
+              <i class="bx bxl-instagram social__icon"></i>@NestorGomez
+            </a>
+          </div>
+        </section> -->
 
         <!--========== PROFILE ==========-->
         <section class="profile section" id="profile">
-          <p>Curriculum</p>
+          <h2 class="section-title">Perfil</h2>
+          <p class="profile__description">
+            Cursando el último modulo (Backend) de la Carrera <strong>"Desarrollador Full-Stack"</strong>
+            en CODERHOUSE.<br>
+            <b>Autodidacta</b>, en la busqueda constante de ampliar y modernizar mis conocimientos sumando frameworks
+            que se
+            utilizan en la actualidad, adoptando nuevas prácticas de desarrollo.<br>
+            <b>Fan del problema</b> , no de la solución. No evito tenerlos, evito tener siempre el mismo.<br>
+            <b>Perseverante</b>, no me rindo cuando algo no funciona como debería.<br>
+            <b>Apasionado</b>, los proyectos freelance y el cursado de la carrera, los estoy realizado fuera de mi
+            horario
+            laboral.<br>
+            <b>Mi meta</b> es ver hasta donde soy capaz de llegar dedicándome full-time en este apasionante mundo.<br>
+
+          </p>
+        </section>
+        <section class="profile section" id="actual_job">
+          <h2 class="section-title">Empleo actual</h2>
+          <h3 class="certificate__title">Proyección Electroluz | 2007 - Actualidad</h3>
+
+          <p class="profile__description">
+            Desde 2011 estoy en el departamento de ingenieria cumpliento las siguientes tareas:<br>
+            - Desarrollo de planimetria para obra.<br>
+            - Solicitudes de compra para materiales de obra.<br>
+            - Seguimiento y certificación de avances en obra.<br>
+            - Relación directa con el cliente.<br>
+            - Planimetria para fabricación de tableros eléctricos.<br>
+            - Coordinación para envío de materiales a obra.<br>
+
+          </p>
         </section>
 
         <!--========== EDUCATION ==========-->
         <section class="education section" id="education">
+          <h2 class="section-title">Educacion</h2>
+          <div class="eductacion__container bd-grid">
 
+            <!-- <div class="education__content">
+              <div class="education__time">
+                <span class="education__rounder"></span>
+                <span class="education__line"></span>
+              </div>
+              <div class="education__data bd-grid">
+                <h3 class="education__title">ANALISTA DE DISEÑO DIGITAL</h3>
+                <span class="education__studies">Instituto Belgrano</span>
+                <span class="education__year">2007 - 2009</span>
+              </div>
+            </div> -->
+
+            <div class="education__content">
+              <div class="education__time">
+                <span class="education__rounder"></span>
+                <!-- <span class="education__line"></span> -->
+              </div>
+              <div class="education__data  bd-grid">
+                <h3 class="education__title">ANALISTA DE DISEÑO DIGITAL</h3>
+                <span class="education__studies">Instituto Belgrano Rosario</span>
+                <span class="education__year">2007 - 2009</span>
+              </div>
+            </div>
+          </div>
         </section>
 
+        <div class="html2pdf__page-break"></div>
 
         <!--========== SKILLS  ==========-->
         <section class="skills section" id="skills">
+          <h2 class="section-title">Habilidades</h2>
 
+          <div class="skills__content bd-grid">
+            <ul class="skills__data">
+              <li class="skills__name">
+                <span class="skills__circle"></span>Html
+              </li>
+              <li class="skills__name">
+                <span class="skills__circle"></span>Css
+              </li>
+              <li class="skills__name">
+                <span class="skills__circle"></span>Sass
+              </li>
+              <li class="skills__name">
+                <span class="skills__circle"></span>Bootstrap
+              </li>
+              <li class="skills__name">
+                <span class="skills__circle"></span>JavaScript
+              </li>
+              <li class="skills__name">
+                <span class="skills__circle"></span>React Js
+              </li>
+              <li class="skills__name">
+                <span class="skills__circle"></span>Gatsby Js
+              </li>
+            </ul>
+            <ul class="skills__data">
+              <li class="skills__name">
+                <span class="skills__circle"></span>React Bootstrap
+              </li>
+              <li class="skills__name">
+                <span class="skills__circle"></span>Firebase
+              </li>
+
+              <li class="skills__name">
+                <span class="skills__circle"></span>Styled Components
+              </li>
+              <li class="skills__name">
+                <span class="skills__circle"></span>Graphql
+              </li>
+              <li class="skills__name">
+                <span class="skills__circle"></span>Figma
+              </li>
+              <li class="skills__name">
+                <span class="skills__circle"></span>Adobe Photoshop
+              </li>
+              <li class="skills__name">
+                <span class="skills__circle"></span>Adobe Illustrator
+              </li>
+            </ul>
+          </div>
         </section>
-
-      </div>
-
-      <div class="resume__right">
-        <!--========== EXPERIENCE ==========-->
-        <section class="experience section" id="experience">
-
-        </section>
-
-        <!--========== CERTIFICATES ==========-->
-        <section class="certificate section" id="certificates">
-
-        </section>
-
-        <!--========== REFERENCES ==========-->
-        <section class="references section" id="references">
-
-        </section>
-
         <!--========== LANGUAGES ==========-->
         <section class="languages section">
-
+          <h2 class="section-title">Nivel de ingles</h2>
+          <div class="languages__container">
+            <ul class="languages__content ">
+              Lectura y comprensión de textos.<br> Comprensión auditiva.<br>
+              Hablado
+              nivel medio.
+            </ul>
+          </div>
         </section>
 
         <!--========== INTERESTS ==========-->
         <section class="interests section">
-
+          <h2 class="section-title">Intereses</h2>
+          <div class="interests__container bd-grid">
+            <div class="interests__content">
+              <i class="fa-solid fa-guitar interests__icon"></i>
+              <span class="interests__name">Guitarra</span>
+            </div>
+            <div class="interests__content">
+              <i class="fa-solid fa-baseball interests__icon"></i>
+              <span class="interests__name">Tenis</span>
+            </div>
+            <div class="interests__content">
+              <i class="fa-solid fa-futbol interests__icon"></i>
+              <span class="interests__name">Futbol</span>
+            </div>
+            <div class="interests__content">
+              <i class="fa-solid fa-film interests__icon"></i>
+              <span class="interests__name">Cine</span>
+            </div>
+          </div>
         </section>
       </div>
+
+      <div class="resume__right">
+
+        <!--========== EXPERIENCE ==========-->
+        <section class="experience section" id="experience">
+          <h2 class="section-title">Experiencia</h2>
+          <div class="experience__container bd-grid">
+            <div class="experience__content">
+              <div class="experience__time">
+                <span class="experience__rounder"></span>
+                <span class="experience__line"></span>
+              </div>
+              <div class="experience__data bd-grid">
+                <h3 class="experience__title">PROYECCION ELECTROLUZ | Nuevo sitio institucional</h3>
+                <span class="experience__company ">Noviembre 2020 - Actualidad | Lanzamiento: Abril
+                  2022</span>
+                <span class="experience__company not_see_html">https://electroluz-version-beta.netlify.app/</span>
+                <a href="https://electroluz-version-beta.netlify.app/" rel="noopener noreferrer" target="_blank"
+                  class="experience__link not_see_pdf">https://electroluz-version-beta.netlify.app/</a>
+
+                <p class="experience__description" target="_blank">Desarrollado en Gatsby (framework de React) con
+                  la finalidad principal de tener posicionamiento SEO.
+                  <br>
+                  Se trabajó con la empresa CREATIVEDOGS en la confección de los mockups del sitio (Web/Mobile).
+                  <br>
+                  Cerrada esta etapa se comenzó a desarrollar el sitio. <br>
+                  Actualmente el sitio consta de 26 páginas.<br>
+                  Se crearon componentes reutilizables que reciben props desde:<br>
+                  Array de objetos, Archivos json y consultas a Graphql.<br>
+                  En la sección de noticias las páginas se crean programáticamente desde archivos Marckdown.<br>
+                  Se usa GRAPHQL para optimizar las imágenes con una consulta por página.<br>
+                  Edición y armado de todas las imagenes del sitio con Illustrator y Photoshop.
+                </p>
+              </div>
+            </div>
+            <div class="experience__content">
+              <div class="experience__time">
+                <span class="experience__rounder"></span>
+                <span class="experience__line"></span>
+
+              </div>
+              <div class="experience__data bd-grid">
+                <h3 class="experience__title">LA BODEGA DE WILLY | E-commerce de bebidas</h3>
+                <span class="experience__company">Julio 2021 - Actualidad | Lanzamiento: Octubre 2022</span>
+                <span class="experience__company not_see_html">https://la-bodega-de-willy.netlify.app/</span>
+                <a href="https://la-bodega-de-willy.netlify.app/" rel="noopener noreferrer" target="_blank"
+                  class="experience__link not_see_pdf">https://la-bodega-de-willy.netlify.app/</a>
+
+                <p class="experience__description">Libertad creativa para todo el desarrollo.<br>
+                  Se realizarón los mockups (Figma), y a partir de ellos, el desarrollo del sitio.<br>
+                  Proyecto basado en React js, Firebase (V9), Api Context. <br>
+                  Se puede registrar creando una cuenta(falta validación de formularios), con Facebook o Gmail.<br>
+                  Para acceder al carro se debe estar registrado (ruta privada).<br>
+                  Finalizada la compra se genera un numero de seguimiento y se
+                  almacena la compra en la base de datos. <br>
+                  Se está trabajando (a la par del curso) en el backend del sitio.
+                </p>
+              </div>
+            </div>
+            <div class="experience__content">
+              <div class="experience__time">
+                <span class="experience__rounder"></span>
+                <span class="experience__line"></span>
+
+              </div>
+              <div class="experience__data bd-grid">
+                <h3 class="experience__title">CONTROLARG | Sitio Institucional</h3>
+                <span class="experience__company">Marzo 2012 </span>
+                <span class="experience__company not_see_html">www.controlarg.com.ar</span>
+                <a href="https://www.controlarg.com.ar/" rel="noopener noreferrer" target="_blank"
+                  class="experience__link not_see_pdf">www.controlarg.com.ar</a>
+
+                <p class="experience__description">
+                  Desarrollado con Adobe Dreamweaver.<br>
+                  Se realizó el sitio y se entregó el proyecto con el desarrollo completo.<br>
+                  Sitio NO-Responsive. Edición y armado de todas las imagenes del sitio con Corel y Photoshop.<br>
+
+              </div>
+            </div>
+
+            <div class="experience__content">
+              <div class="experience__time">
+                <span class="experience__rounder"></span>
+                <!-- <span class="experience__line"></span> -->
+              </div>
+              <div class="experience__data bd-grid">
+                <h3 class="experience__title">GIROVITAL | Sitio Institucional</h3>
+                <span class="experience__company">Septiembre 2009</span>
+                <a href="https://www.controlarg.com.ar/" rel="noopener noreferrer" target="_blank"
+                  class="experience__link not_see_pdf">www.girovital.com.ar</a>
+                <span class="experience__company not_see_html">www.girovital.com.ar</span>
+                <p class="experience__description">Sitio ASP desarrollado con Adobe Dreamweaver y Base
+                  de datos en Access.<br>
+                  Se realizó el sitio y se entregó el proyecto con el desarrollo completo.<br>
+                  Sitio NO-Responsive. Edición y armado de todas las imagenes del sitio con Corel y Photoshop.<br>
+                  Se realizaron animaciones .SWF, ya removidas por falta de compatibilidad</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="html2pdf__page-break"></div>
+        <!--========== CERTIFICATES ==========-->
+        <section class="certificate section" id="certificates">
+          <h2 class="section-title">Certificados</h2>
+          <div class="certificate__content bd-grid">
+            <div class="certificate__content">
+              <h3 class="certificate__title">CODERHOUSE | React js | Enero 2022</h3>
+              <a href="https://www.coderhouse.com/certificados/620d4057d13134007b6a6e1f" target="_blank"
+                rel="noopener noreferrer" class="experience__link not_see_pdf">VER CERTIFICADO</a>
+
+              <p class="certificate__description">Curso finalizado dentro del TOP10 con el mayor puntaje posible
+                (asistencias-prácticas-proyecto final).</p>
+            </div>
+            <div class="certificate__content">
+              <h3 class="certificate__title">CODERHOUSE | JavaScript | Octubre 2021</h3>
+              <a href="https://www.coderhouse.com/certificados/619f957f13094d00503888a7" target="_blank"
+                rel="noopener noreferrer" class="experience__link not_see_pdf">VER CERTIFICADO</a>
+              <p class="certificate__description">Curso finalizado dentro del TOP10 con el mayor puntaje posible
+                (asistencias-prácticas-proyecto final)</p>
+            </div>
+            <div class="certificate__content">
+              <h3 class="certificate__title">CODERHOUSE | Desarrollo Web | Agosto 2021</h3>
+              <a href="https://www.coderhouse.com/certificados/612aa2e44ae13d001138ea29" target="_blank"
+                rel="noopener noreferrer" class="experience__link not_see_pdf">VER CERTIFICADO</a>
+              <p class="certificate__description">Curso finalizado dentro del TOP10 con el mayor puntaje posible
+                (asistencias-prácticas-proyecto final)</p>
+            </div>
+            <div class="certificate__content">
+
+              <h3 class="certificate__title">UDEMY | Universidad Bootstrap | Junio 2021</h3>
+              <a href="https://www.udemy.com/certificate/UC-a8defc89-70ad-4025-8c17-ebb6f95a9eb2/" target="_blank"
+                rel="noopener noreferrer" class="experience__link not_see_pdf">VER CERTIFICADO</a>
+
+            </div>
+            <div class="certificate__content">
+
+              <h3 class="certificate__title">UDEMY | Experto en Bootstrap 4 | Junio 2021</h3>
+              <a href="https://www.udemy.com/certificate/UC-515e1cde-f794-4398-933b-d4204e26ee90/" target="_blank"
+                rel="noopener noreferrer" class="experience__link not_see_pdf">VER CERTIFICADO</a>
+
+            </div>
+            <div class="certificate__content">
+              <h3 class="certificate__title">UDEMY | Desarrollo en ASP.NET MVC | Noviembre 2020</h3>
+              <a href="https://www.udemy.com/certificate/UC-329c7a1e-11c8-467e-8542-5127813ddad9/" target="_blank"
+                rel="noopener noreferrer" class="experience__link not_see_pdf">VER CERTIFICADO</a>
+
+            </div>
+            <div class="certificate__content">
+              <h3 class="certificate__title">UDEMY | Programación C# con Visual Studio | Abril 2020</h3>
+              <a href="https://www.udemy.com/certificate/UC-5e07f811-2a6d-4fec-8291-660a605db1bc/" target="_blank"
+                rel="noopener noreferrer" class="experience__link not_see_pdf">VER CERTIFICADO</a>
+
+            </div>
+          </div>
+
+      </div>
+      </section>
+
+      <!--========== REFERENCES ==========-->
+      <!-- <section class="references section" id="references">
+        <h2 class="section__title">References</h2>
+        <div class="references__container bd-grid">
+          <div class="references__content bd-grid">
+            <span class="references__subtitle">Sr.Director</span>
+            <h3 class="references__title">Mr. Clay Doe</h3>
+            <ul class="references__contact">
+              <li>Phone:999-777-999</li>
+              <li>Email:user@gmail.com</li>
+            </ul>
+          </div>
+          <div class="references__content bd-grid">
+            <span class="references__subtitle">Sr.Director</span>
+            <h3 class="references__title">Mr. Clay Doe</h3>
+            <ul class="references__contact">
+              <li>Phone:999-777-999</li>
+              <li>Email:user@gmail.com</li>
+            </ul>
+          </div>
+          <div class="references__content bd-grid">
+            <span class="references__subtitle">Sr.Director</span>
+            <h3 class="references__title">Mr. Clay Doe</h3>
+            <ul class="references__contact">
+              <li>Phone:999-777-999</li>
+              <li>Email:user@gmail.com</li>
+            </ul>
+          </div>
+        </div>
+      </section> -->
+
+
+
+
+    </div>
     </div>
   </main>
 
   <!--========== SCROLL TOP ==========-->
-
+  <a href="#" class="scrolltop" id="scroll-top">
+    <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+  </a>
 
   <!--========== HTML2PDF ==========-->
   <script src="assets/js/html2pdf.bundle.min.js"></script>
 
   <!--========== MAIN JS ==========-->
   <script src="assets/js/main.js"></script>
+  <script src="https://kit.fontawesome.com/a956f6afa3.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
